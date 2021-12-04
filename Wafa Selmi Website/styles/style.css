@@ -21,7 +21,7 @@ color: white;border: none;border-radius: 50px;cursor:pointer;
 transition: all 0.3s ease 0s;}
 button:hover {background-color: bisque;}
 .cta {font-family: Verdana, Geneva, Tahoma, sans-serif;}
-
+.signin {padding-left: 10%;}
 /*TEXT AND HEADINGS*/
 h1 {padding-left: 10%;margin-top: 100px;font-size:70px;
 font-family: "Montserrat",sans-serif;color: rgb(26, 4, 4);}
