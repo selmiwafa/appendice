@@ -1,16 +1,36 @@
+
 @charset "utf-8";
 @import url('https://fonts.googleapis.com/css?familyMonstserrat:500');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&display=swap');
 
-body {background-image: url("img/home_bg.jpg");}
-* {box-sizing: border-box;margin: 0;padding: 0;background-color: white;}
-li, a, button {font-family: "Montserrat", sans-serif; font-weight: 500;font-size: 20px;color: black;text-decoration:none;}
-header {display: flex;justify-content: space-between;align-items: center;padding: 30px 10%;height: 120px;}
+* {box-sizing: border-box;margin: 0;padding: 0;
+background-color: white;}
+
+/*NAVIGATION BAR AND ITS CONTENT*/
+li, a, button {font-family: "Montserrat", sans-serif; font-weight: 500;
+font-size: 20px;color: black;text-decoration:none;}
+header {display: flex;justify-content: space-between;align-items: 
+center;padding: 30px 10%;height: 120px;}
 .logo {cursor: pointer;}
 .navLinks {list-style: none;}
 .navLinks li {display: inline-block;padding: 0px 20px;}
 .navLinks li a {transition: all 0.3s ease 0s;}
 .navLinks li a:hover {color: brown;}
-button {padding: 9px 25px;background-color: brown;color: white;border: none;border-radius: 50px;cursor:pointer;transition: all 0.3s ease 0s;}
+button {padding: 9px 25px;background-color: brown;
+color: white;border: none;border-radius: 50px;cursor:pointer;
+transition: all 0.3s ease 0s;}
 button:hover {background-color: bisque;}
+.cta {font-family: Verdana, Geneva, Tahoma, sans-serif;}
 
-h1 {padding-left: 25%;margin-top: 100px;font-size:80px;font-family: "Montserrat",sans-serif;color: rgb(26, 4, 4);}
+/*TEXT AND HEADINGS*/
+h1 {padding-left: 10%;margin-top: 100px;font-size:70px;
+font-family: "Montserrat",sans-serif;color: rgb(26, 4, 4);}
+h4 {padding-left: 10%;padding-bottom: 20px;font-size: 30px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;color: rgb(182, 142, 142);}
+p {padding-left: 10%;font-size: 30px;
+font-family: "Baloo Bhaijaan" ;color: rgb(0, 0, 0);}
+
+/*BACKGROUND IMAGE*/
+html {background: url("home_bg.jpg") no-repeat center center fixed;
+background-size: cover;}
+/*And here is the css code to add a background image but that's not working*/ 
