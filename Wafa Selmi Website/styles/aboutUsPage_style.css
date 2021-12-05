@@ -1,0 +1,82 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?familyMonstserrat:500');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&display=swap');
+
+
+@keyframes a1 
+{ 0%   {color:rgb(214, 55, 55);}
+  25%  {color:rgb(134, 53, 187);}
+  50%  {color:rgb(218, 45, 103);}
+  75%  {color:rgb(233, 93, 38);}
+  100% {color:rgb(228, 217, 60);}
+}
+
+/*NAVIGATION BAR AND ITS CONTENT*/
+li, a, button {
+font-family: "Montserrat", sans-serif; font-weight: 500;
+font-size: 1.5vw;color: black;text-decoration:none;
+}
+
+header {
+display: flex;justify-content: space-between;align-items: 
+center;padding: 30px 5%;height: 6vw;
+}
+
+.logo {
+cursor: pointer;width: 22vw;height: auto;
+}
+
+.navLinks {list-style: none;}
+
+.navLinks li {display: inline-block;padding: 0px 20px;}
+
+.navLinks li a {transition: all 0.3s ease 0s;font-size: 2vw;}
+
+.navLinks li a:hover {color: brown;}
+
+button {
+padding: 13px 25px;background-color: rgb(167, 38, 76);
+color: white;border: none;border-radius: 30px;cursor:pointer;
+transition: all 0.3s ease 0s;
+}
+
+button:hover {background-color: bisque;}
+
+.appendice {
+font-size :3vw;
+font-family: "Baloo Bhaijaan",sans-serif;color: rgb(26, 4, 4);
+animation: a1 10s ;animation-iteration-count: infinite;
+}
+
+.abtus
+{ 
+    margin-top: 3%;margin-left: 15%;
+    font-size :3vw; font-family: "Montserrat",sans-serif;
+    color: rgb(75, 14, 14);
+}
+
+.abtus_content
+{
+    margin-left: 10%;margin-right: 40%;margin-bottom: 10%;
+}
+
+.paragraph
+{
+    font-size: 2vw;
+}
+
+
+h5, h2
+{
+    font-family: "Montserrat",sans-serif;font-size: 2vw;
+    text-decoration: underline;color: crimson;
+}
+
+html {
+  background: url(bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
