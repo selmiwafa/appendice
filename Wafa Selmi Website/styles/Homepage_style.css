@@ -39,6 +39,7 @@ color: rgb(182, 142, 142);}
 p {font-size: 2vw;
 font-family: "Baloo Bhaijaan" ;color: rgb(0, 0, 0);}
 #text {padding-left: 10%;width: 60%;height: auto;}
+.ps {font-size: 1.5vw;}
 
 /*IMAGE*/
 #image {width: 30%;height: auto;float: right;}
