@@ -12,25 +12,25 @@
     <nav>
         <ul class="navLinks">
             <li><b><a href="homepage.html">Home</a></b></li>
-            <li><b><a href="#">About Us</a></b></li>
+            <li><b><a href="aboutUs_page.html">About Us</a></b></li>
         </ul>
     </nav>
-    <a href="#" ><button class="login">Log in</button></a>
+    <a href="login_page.html" ><button class="login">Log in</button></a>
 </header>
 <body><br><br>
-    <form class="signin-form" id="form1">
-        <div class="signin-form__logo-container">
+    <form class="signup-form" id="form1">
+        <div class="signup-form__logo-container">
             <h1>Apprendice</h1>
         </div>
-        <div class="signin-form__content">
-            <div class="signin-form__header">Make an account</div>
-            <input class="signin-form__input" type="text" id="username" placeholder="Username">
-            <input class="signin-form__input" type="text" id="fullname" placeholder="Full Name">
-            <input class="signin-form__input" type="text" id="email" placeholder="E-mail">
-            <input class="signin-form__input" type="password" id="password" placeholder="Password">
-            <input class="signin-form__input" type="password" id="confpassword" placeholder="Confirm password">
+        <div class="signup-form__content">
+            <div class="signup-form__header">Make an account</div>
+            <input class="signup-form__input" type="text" id="username" placeholder="Username">
+            <input class="signup-form__input" type="text" id="fullname" placeholder="Full Name">
+            <input class="signup-form__input" type="text" id="email" placeholder="E-mail">
+            <input class="signup-form__input" type="password" id="password" placeholder="Password">
+            <input class="signup-form__input" type="password" id="confpassword" placeholder="Confirm password">
             <h5>Age (for statistics)</h5>
-            <select class="signin-form__input" id="age">
+            <select class="signup-form__input" id="age">
                 <option selected>--Select you age range--</option>
                 <option>Under 18</option>
                 <option>Between 18 and 20</option>
@@ -38,13 +38,13 @@
                 <option>Between 30 and 50</option>
                 <option>Over 50</option>
             </select>
-            <div class="form-error" data-errormsg="Booya">
+            <div>
                 <input type="checkbox" id="check">
                 <label for="check">I trust this website with my data.</label>
             </div>
-            <button class="signin-form__button" type="submit" id="signin-button">Create account</button>
-            <div class="signin-form__links">
-                <a class="signin-form__link" href="./">Already have an account? Log in here.</a>
+            <button class="signup-form__button" type="submit" id="signup-button">Create account</button>
+            <div class="signup-form__links">
+                <a class="signup-form__link" href="login_page.html">Already have an account? Log in here.</a>
             </div>
         </div>
     </form>
