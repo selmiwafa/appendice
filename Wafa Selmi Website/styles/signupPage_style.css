@@ -48,37 +48,38 @@ body {
     margin-top: 50px;
 }
 
-.signin-form, .signin-form * {
+.signup-form, .signin-form * {
     box-sizing: border-box;
     font-family: 'Source Sans Pro';
 }
 
-.signin-form {
+.signup-form {
     margin: 0 auto;
     border-radius: 5px;
     overflow: hidden;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
-    width: 50vw;
+    width: 700px;
+    margin-bottom: 120px;
 }
 
-.signin-form__logo-container {
+.signup-form__logo-container {
     padding: 2vw;
     background: #7d1f1f;
 }
 
-.signin-form__logo {
+.signup-form__logo {
     display: block;
     font-size: 5vw;
     max-width: 125px;
     margin: 0 auto;
 }
 
-.signin-form__content {
+.signup-form__content {
     padding: 30px;
     background: #eeeeee;
 }
 
-.signin-form__header {
+.signup-form__header {
     margin-bottom: 15px;
     font-size: 3vw;
     text-align: left;
@@ -86,7 +87,7 @@ body {
     color: #333333;
 }
 
-.signin-form__input {
+.signup-form__input {
     width: 100%;
     margin-bottom: 10px;
     padding: 10px;
@@ -97,17 +98,17 @@ body {
     transition: border-color 0.5s;
 }
 
-.signin-form__input:focus {
+.signup-form__input:focus {
     border-color: brown;
 }
 
-.signin-form__input::placeholder {
+.signup-form__input::placeholder {
     color: #aaaaaa;
 }
 
-.signin-form__button {
+.signup-form__button {
     margin-top: 7%;
-    padding: 10px;
+    padding: 20px;
     color: #ffffff;
     font-weight: bold;
     font-size: 30px;
@@ -119,17 +120,17 @@ body {
     cursor: pointer;
 }
 
-.signin-form__button:active {
+.signup-form__button:active {
     background: brown;
 }
 
-.signin-form__links {
+.signup-form__links {
     margin-top: 15px;
     text-align: center;
 }
 
-.signin-form__link {
-    font-size: 0.9em;
+.signup-form__link {
+    font-size: 1vw;
     color: brown;
     text-decoration: none;
 }
