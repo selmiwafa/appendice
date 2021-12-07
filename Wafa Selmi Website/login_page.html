@@ -7,7 +7,14 @@
 <head>
     <title>Apprendice : Log in</title>
 </head>
-
+<script type="text/javascript">
+    function verif() {
+        var username = document.form2.username.value;
+        var password = document.form2.password.value;
+        if (username=="") { alert("- Username required!"); return false; }
+        if (password=="") { alert("- Password required!"); return false; }
+    }
+</script>
 <header>
     <a href="homepage.html"><img src="img/logo.jpg" class="logo"></a>
     <nav>
@@ -26,9 +33,9 @@
         </div>
         <div class="login-form__content">
             <div class="login-form__header">Make an account</div>
-            <input class="login-form__input" type="text" id="username" placeholder="Username">
-            <input class="login-form__input" type="password" id="password" placeholder="Password">
-            <button class="login-form__button" type="submit" id="login-button">Log in</button>
+            <input class="login-form__input" type="text" id="username" name="username" placeholder="Username">
+            <input class="login-form__input" type="password" id="password" name="password" placeholder="Password">
+            <button class="login-form__button" type="submit" name="login-button" id="login-button">Log in</button>
             <div class="login-form__links">
                 <a class="login-form__link" href="signup_page.html">New here? Create an account in here.</a>
             </div>
